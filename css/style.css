@@ -42,12 +42,14 @@ ul{
 }
 
 /* Header**/
+.header-cont {width: 100%; position: fixed; top: 0px;}
 header{
   background: #35424a;
   color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
   border-bottom: #e8491d 3px solid;
+  margin: 0px auto;
 }
 
 header a{
