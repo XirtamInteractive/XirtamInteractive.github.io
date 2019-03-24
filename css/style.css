@@ -7,9 +7,9 @@ body{
 
 /* Global */
 .container{
-  width: 80%;
   margin: auto;
   overflow: hidden;
+  padding-top: 10px;
 }
 
 ul{
@@ -42,14 +42,16 @@ ul{
 }
 
 /* Header**/
-.header-cont {width: 100%; position: fixed; top: 0px;}
+.header-cont { width: 100%; position: fixed; top: 0px;}
 header{
   background: #35424a;
   color: #ffffff;
   padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
   min-height: 70px;
   border-bottom: #e8491d 3px solid;
-  margin: 0px auto;
 }
 
 header a{
@@ -88,8 +90,23 @@ header a:hover{
   font-weight: bold;
 }
 
+#main{
+  margin:100px 0 0 0;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+#main1{
+  margin-top: 100px;
+  margin-bottom: 0px;
+  background-color: #35424a;
+
+}
+
 /* Showcase*/
 #showcase{
+  margin-left: 100px;
+  margin-right: 100px;
   min-height: 700px;
   background: url('../img/showcase1.jpeg') no-repeat 0 30px;
   background-position: center;
@@ -127,6 +144,8 @@ header a:hover{
 
 #link{
   padding: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
   color:#ffffff;
   background: #35424a;
 }
